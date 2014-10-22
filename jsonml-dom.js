@@ -144,7 +144,7 @@ var JsonML = JsonML || {};
 				var str = String(elem.nodeValue);
 				// free references
 				elem = null;
-				return str;
+                return str.trim().length === 0 ? null : str;
 			case 10: // doctype
 				jml = ['!'];
 
