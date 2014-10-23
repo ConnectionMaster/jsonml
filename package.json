@@ -1,6 +1,10 @@
 {
     "name": "jsonml",
     "version": "2.0.1",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/GeneralElectric/jsonml"
+    },
     "dependencies": {
 
     }
